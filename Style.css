@@ -1,0 +1,59 @@
+body{
+    background-color: white;
+    }
+    table{
+    position: absolute;
+    width :700px;
+    height:200px;
+    left:100px;
+    margin-top:50px;
+    }
+
+    td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+   Verdana, sans-serif;
+    height: 30px;
+    }
+
+    th{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#92f8ff;
+    padding: 7px 15px;
+    }
+
+    input[type=submit]{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:14px;
+    background-color:#e5b266 ;
+    color:black;
+    margin-left:670px;
+    border-radius:60px;
+    padding:12px 15px;
+    position:absolute;
+    top: 35px;
+    margin-top:300px;
+    }
+
+    span{
+    font-size:20px;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    input[type=text]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    padding:10px 0px;
+    width:92%;
+    text-align: center;
+    padding-left:10px;
+    }
+
+    input:focus{
+    background-color:rgb(220, 237, 241);
+    }
+    
+    input[type=submit]:hover{
+    background-color:rgb(201, 173, 137);
+    }
+   

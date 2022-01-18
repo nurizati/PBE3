@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="CalMarks.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+    <table border="2">
+        <form name="Myform" action="" method="post" enctype="multipart/form- data" onsubmit="return calculate();">
+            <tr>
+                <th>SUBJECT CODE</th>
+                <th>SUBJECT NAME</th>
+                <th>CREDIT HOURS</th>
+                <th>MARK</th>
+                <th>GRADE</th>
+            </tr>
+            <tr>
+                <td> <input type="text" name="subjectcode" id="subcode" required /></td>
+                <td> <input type="text" name="subjectname" id="subname" required /></td>
+                <td> <input type="text" name="credithours" id="credit" required /></td>
+                <td> <input type="text" name="mark" id="mark" required /></td>
+                <td width="8%" align="center"><span id="grade"></span></td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="subjectcode" id="subcode2" required /></td>
+                <td> <input type="text" name="subjectname" id="subname2" required /></td>
+                <td> <input type="text" name="credithours" id="credit2" required /></td>
+                <td> <input type="text" name="mark2" id="mark2" required /></td>
+                <td width="8%" align="center"><span id="grade2"></span></td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="subjectcode" id="subcode2" required /></td>
+                <td> <input type="text" name="subjectname" id="subname2" required /></td>
+                <td> <input type="text" name="credithours" id="credit2" required /></td>
+                <td> <input type="text" name="mark3" id="mark3" required /></td>
+                <td width="8%" align="center"><span id="grade3"></span></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><b>TOTAL MARK</b></td>
+                <td colspan="2" align="center"><span id="totalmark"></span></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><b>AVERAGE MARK</b></td>
+                <td colspan="2" align="center"><span id="averagemark"></span></td>
+            </tr>
+            <input type="submit" value="CALCULATE" onclick="calculate()">
+        </form>
+    </table>
+
+</body>
+
+</html>
